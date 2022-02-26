@@ -1,0 +1,215 @@
+body{
+    background-color:lightgray;
+    margin-top: 0;
+    font-family: 'Bahnschrift Condensed';
+    letter-spacing: -1px;
+    text-underline-offset: 5px;
+}
+#header{
+    float: right;
+    padding-right: 5px;
+}
+header{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+header img{
+    width: 90px;
+}
+#header a{
+    margin-left: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: smaller;
+}
+#header P{
+    text-align: right;
+    font-weight: bold;
+    font-size: large;
+}
+#header p img{
+    float: right;
+    width: 30px;
+}
+#fixednav{
+    width: 100%; 
+    display: block;
+    position: relative;
+}
+#fixednav span{
+    background-color: rgb(221, 48, 48);
+    color: white;
+    text-align: center;
+    padding:1% 0 0 0;
+    width: 44%;
+    height: 35;
+    border-radius: 8px;
+    box-shadow:0px 0px 15px 0px black;
+    position: absolute;
+    right: 0;
+    top: -8;
+}
+#fixednav table{
+    width: 57%;
+    table-layout: fixed;
+    height: 35px;
+}
+#fixednav table tr{
+    border-top: 5px ridge black;
+}
+#fixednav table tr td{
+    text-align: center;
+    border-top: 0.5px solid black;
+    border-right: 0.5px solid black;
+    margin: 0;
+    padding: 0;
+}
+#fixednav table tr td a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+#fixednav table tr td:hover{
+    background-color: rgb(255, 174, 68);
+}
+#category img{
+    width: 100%;
+}
+#category{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+#category ul{
+    list-style: none;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+    width:100%;
+    display: inline-block;
+    background-color:rgba(0, 0, 0, 0.7);
+    margin: 0;
+}
+#category ul li{
+    padding: 1% 0;
+    float: left;
+    width: 10%;
+}
+#category ul li a{
+    color: white;
+    text-decoration: none;
+}
+#category ul li a:hover{
+    text-decoration: underline rgb(221, 48, 48) 2px;
+}
+.item{
+    display: inline-block;
+    width: 48%;
+    background-color: white;
+    margin: 3% 0;
+    height: 300px;
+}
+.pic{
+    display: inline-block;
+    width: 49%;
+    justify-content: left;
+    text-align: center;
+    font-weight: bolder;
+    font-size:x-large;
+}
+.pic img{
+    height: 70%;
+}
+.disc{
+    display: inline-block;
+    text-align: justify;
+    justify-content: left;
+    width:49%;
+    float: right;
+    padding: 0 2% 0 0;
+}
+.disc p{
+    height: 35%;
+}
+.ss, .add{
+    width: 59%;
+}
+.size, .cust{
+    width: 39%;
+}
+.ss, .size{
+    border: 0.5px inset;
+    border-radius: 8px;
+    padding: 3% 1%;
+    box-shadow: -2px -2px 2px -2px black;
+    font-weight: bold;
+    appearance:none;
+    background-image: url(../img/arrow.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: 10px;
+}
+option{
+    color: black;
+}
+.add{
+    background-color: rgb(221, 48, 48);
+    padding: 12px 3px;
+    border: 0;
+    border-radius: 8px;
+    color: white;
+}
+.cust{
+    border: 0;
+    border-radius: 8px;
+    background-color: gray;
+    color: white;
+    padding: 8px 5px;
+}
+.cust:hover{
+    width: 37%;
+    height: 15%;
+}
+.add:hover{
+    width: 55%;
+    height: 17%;
+}
+a, button{
+    cursor: pointer;
+    font-weight: bold;
+}
+.iright{
+    float: right;
+}
+h3{
+    color: rgb(221, 48, 48);
+}
+#more{
+    position: relative;
+}
+td ul{
+    width: 100%;
+    display: block;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 100%;               
+}
+.dlist{
+    display: none;
+    text-align: center;
+    width: 100%;
+}
+td:hover ul .dlist{
+    display: block;
+} 
+#more ul li:hover{
+    background-color: rgb(255, 174, 68);
+}
+#more:hover ul{
+    background-color: white;
+}
